@@ -1,0 +1,12 @@
+c:\users\thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTesting\bin\Debug\PolygonTesting.exe.config
+c:\users\thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTesting\bin\Debug\PolygonTesting.exe
+c:\users\thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTesting\bin\Debug\PolygonTesting.pdb
+c:\users\thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTesting\obj\Debug\PolygonTesting.csprojResolveAssemblyReference.cache
+c:\users\thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTesting\obj\Debug\PolygonTesting.exe
+c:\users\thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTesting\obj\Debug\PolygonTesting.pdb
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTesting\bin\Debug\PolygonTesting.exe.config
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTesting\obj\Debug\PolygonTesting.exe
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTesting\obj\Debug\PolygonTesting.pdb
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTesting\bin\Debug\PolygonTesting.exe
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTesting\bin\Debug\PolygonTesting.pdb
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTesting\obj\Debug\PolygonTesting.csprojResolveAssemblyReference.cache

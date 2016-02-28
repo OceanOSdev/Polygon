@@ -1,0 +1,16 @@
+C:\Users\Thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTestingTests\obj\Debug\PolygonTestingTests.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTestingTests\bin\Debug\PolygonTestingTests.dll
+C:\Users\Thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTestingTests\bin\Debug\PolygonTestingTests.pdb
+C:\Users\Thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTestingTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTestingTests\bin\Debug\PolygonTesting.exe
+C:\Users\Thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTestingTests\bin\Debug\PolygonTesting.pdb
+C:\Users\Thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTestingTests\obj\Debug\PolygonTestingTests.dll
+C:\Users\Thomas\documents\visual studio 2015\Projects\PolygonTesting\PolygonTestingTests\obj\Debug\PolygonTestingTests.pdb
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\bin\Debug\PolygonTestingTests.dll
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\bin\Debug\PolygonTestingTests.pdb
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\bin\Debug\PolygonTesting.exe
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\bin\Debug\PolygonTesting.pdb
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\obj\Debug\PolygonTestingTests.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\obj\Debug\PolygonTestingTests.dll
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\obj\Debug\PolygonTestingTests.pdb
