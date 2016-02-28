@@ -22,9 +22,9 @@ namespace PolygonTesting
         /// </summary>
         /// <param name="lines">The array of lines that make up the polygon</param>
         /// <returns></returns>
-        public static bool isPolygon(Line[] lines)
+        public static bool IsPolygon(Line[] lines)
         {
-            lines = lines.OrderBy(x => x.LeftMost.X).OrderBy(x => x.RightMost.X).ToArray();
+            lines = lines.OrderBy(x => x.LeftMost.X).ThenBy(x => x.RightMost.X).ToArray();
             List<bool> bIntersects = new List<bool>();
             if (lines.Length < 1)
                 throw new ArgumentException("Line array is empty (or you somehow got a negative array, in which case, what the fuck?");
@@ -46,7 +46,7 @@ namespace PolygonTesting
                 lineQueue.Add(lines[i]);
                 
             }
-            return bIntersects.Where(x => x == true).Count() == 0;
+            return !bIntersects.Contains(true);
         }
 
 

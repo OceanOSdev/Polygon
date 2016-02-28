@@ -14,3 +14,4 @@ C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\bin\Debug\PolygonTestin
 C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\obj\Debug\PolygonTestingTests.csprojResolveAssemblyReference.cache
 C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\obj\Debug\PolygonTestingTests.dll
 C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\obj\Debug\PolygonTestingTests.pdb
+C:\Users\Thomas\Source\Repos\Polygon\PolygonTestingTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml

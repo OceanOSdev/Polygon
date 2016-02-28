@@ -23,8 +23,11 @@ namespace PolygonTesting
         public static bool LineSegementsIntersect(Point p, Point p2, Point q, Point q2,
             out Point intersection, bool considerCollinearOverlapAsIntersect = false)
         {
-            intersection = new Point();
+            if (p == null || p2 == null || q == null || q2 == null)
+                throw new ArgumentException("Points cannot be null");
 
+
+            intersection = new Point();
             Point r = p2 - p;
             Point s = q2 - q;
             double rxs = r.Cross(s);
@@ -82,7 +85,7 @@ namespace PolygonTesting
         public static bool LineSegementsIntersect(Line l1, Line l2, out Point intersection, bool considerCollinearOverlapAsIntersect = false)
         {
             intersection = new Point();
-            if (l1.RightMost == l2.RightMost || l2.LeftMost == l1.LeftMost || l1.RightMost == l2.LeftMost || l2.LeftMost == l1.RightMost)
+            if (l1.RightMost.Equals(l2.RightMost) || l2.LeftMost.Equals(l1.LeftMost) || l1.RightMost.Equals(l2.LeftMost) || l2.LeftMost.Equals(l1.RightMost))
                 return false;
             return LineSegementsIntersect(l1.LeftMost, l1.RightMost, l2.LeftMost, l2.RightMost, out intersection, considerCollinearOverlapAsIntersect);
         }

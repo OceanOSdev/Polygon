@@ -42,7 +42,7 @@ namespace PolygonTesting
             Line other = obj as Line;
             if (other != null)
             {
-                return other.LeftMost == LeftMost && other.RightMost == RightMost;
+                return other.LeftMost.Equals(LeftMost) && other.RightMost.Equals(RightMost);
             }
             return false;
         }

@@ -23,7 +23,7 @@ namespace PolygonTesting
             if (obj is Point)
             {
                 Point other = (Point)obj;
-                return other.X == X && other.Y == Y;
+                return Math.Abs(other.X - X) < 1.0e-20 && Math.Abs(other.Y - Y) < 1.0e-20;
             }
             return false;
         }
@@ -38,8 +38,15 @@ namespace PolygonTesting
 
         public override string ToString() => $"({X},{Y})";
 
-        public static bool operator ==(Point a, Point b) => a.Equals(b);
-        public static bool operator !=(Point a, Point b) => !(a.Equals(b));
+        /*public static bool operator ==(Point a, Point b)
+        {
+            return ((object)a != null && (object)b != null) && (a.X == b.X && a.Y == b.Y);
+        }
+
+        public static bool operator !=(Point a, Point b)
+        {
+            return ((object)a != null && (object)b != null) && (a.X != b.X && a.Y != b.Y);
+        }*/
 
         public static Point operator -(Point a, Point b) => new Point(a.X - b.X, a.Y - b.Y);
         public static Point operator +(Point a, Point b) => new Point(a.X + b.X, a.Y + b.Y);
