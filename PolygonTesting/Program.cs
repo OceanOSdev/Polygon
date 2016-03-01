@@ -18,7 +18,7 @@ namespace PolygonTesting
         }
 
         /// <summary>
-        /// Holy fuck I finally got this working!!!
+        /// Huzzah I finally got this working!!!
         /// </summary>
         /// <param name="lines">The array of lines that make up the polygon</param>
         /// <returns></returns>
@@ -27,7 +27,7 @@ namespace PolygonTesting
             lines = lines.OrderBy(x => x.LeftMost.X).ThenBy(x => x.RightMost.X).ToArray();
             List<bool> bIntersects = new List<bool>();
             if (lines.Length < 1)
-                throw new ArgumentException("Line array is empty (or you somehow got a negative array, in which case, what the fuck?");
+                throw new ArgumentException("Line array is empty (or you somehow got a negative array, in which case, what?");
             Point pHeap = new Point(); // used for the output param in intersect
             List<Line> lineQueue = new List<Line>();
             lineQueue.Add(lines[0]);
